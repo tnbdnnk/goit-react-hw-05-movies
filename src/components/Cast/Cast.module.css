@@ -1,0 +1,38 @@
+.cast__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 20px;
+}
+
+.cast__card {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    max-width: 220px;
+    text-align: right;
+
+}
+
+.cast__card:hover {
+    scale: 1.03;
+}
+
+.cast__name {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.cast__character {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.cast__paragrapf {
+    font-family: 'Kalnia', serif;
+    font-size: 48px;
+    font-weight: 500;
+}

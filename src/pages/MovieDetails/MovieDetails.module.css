@@ -1,0 +1,70 @@
+
+.movieDetails__container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+    background-color: #fff;
+}
+
+.img {
+    max-width: 3200px;
+}
+
+.movieDetails__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.movieDetails__title {
+    margin: 10px 0;
+    font-family: 'Kalnia', serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.movieDetails__score {
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.movieDetails__subtitle {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.movieDetails__text {
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+
+.movieDetails__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0 10px 15px 10px;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.movieDetails__nav a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    padding: 10px;
+    outline: 1px solid #ffffff;
+}
+
+.movieDetails__nav a:hover {
+    outline: 2px solid #ffffff;
+}

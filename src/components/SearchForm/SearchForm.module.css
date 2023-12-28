@@ -1,0 +1,33 @@
+.searchForm {
+    display: flex;
+    justify-content: right;
+    align-items: stretch;
+    gap: 10px;
+    margin: 10px;
+}
+
+.searchInput {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    background: transparent;
+    max-width: 190px;
+    font-size: 14px;
+}
+
+.searchInput:hover {
+    border: 2px solid #ffffff;
+}
+
+
+.searchButton {
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    background: transparent;
+}
+
+.searchButton:hover {
+    border: 2px solid #ffffff;
+}

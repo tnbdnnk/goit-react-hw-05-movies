@@ -1,0 +1,34 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 0 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header__nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Kalnia', serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header__nav a:active,
+.header__nav a:hover {
+    border: 1px solid #ffffff;
+}
